@@ -44,4 +44,10 @@ public class User {
                 ", lastName='" + lastName + '\'' +
                 '}';
     }
+
+    public static void main(String[] args) {
+        User user1=  new User((long) 1,"Prasoon","Parashar");
+        System.out.println(user1);
+
+    }
 }
