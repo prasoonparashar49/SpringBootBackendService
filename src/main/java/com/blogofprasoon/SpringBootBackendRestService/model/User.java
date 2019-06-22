@@ -2,6 +2,9 @@ package com.blogofprasoon.SpringBootBackendRestService.model;
 
 import lombok.*;
 
+import javax.persistence.Entity;
+
+@Entity
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
